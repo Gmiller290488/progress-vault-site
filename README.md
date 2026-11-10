@@ -11,7 +11,6 @@ Then open http://localhost:8765.
 ## Before publishing
 Search for `data-todo` and `TODO` to find these:
 - **App Store link:** the two "Download on the App Store" buttons in `index.html` point to `#`. Also swap the buttons for Apple's official badge (from Apple's [marketing resources](https://developer.apple.com/app-store/marketing/guidelines/)).
-- **Contact email:** `support@example.com` appears in `privacy.html` and `support.html`.
 - **Privacy policy:** it was written from how the app actually works (on-device storage, no analytics, AdMob with UMP consent, StoreKit, Face ID, a keychain counter for free overlay uses). Read it before publishing, and update it whenever the app's data handling changes.
 
 ## Keeping it accurate
